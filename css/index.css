@@ -227,3 +227,48 @@ header nav a:hover:not(:first-child) {
 .middle-content .boxes .box-10 {
     background: dodgerblue;
 }
+
+
+/* ABOUT PAGE */
+.about {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    border-top: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 370px;
+    margin-top: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.card img {
+    margin-bottom: 10px;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px 22px;
+    font-size: 16px;
+    margin: 18px 0;
+}
+
+button:hover {
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(50, 12, 20), rgb(100, 27, 19));
+}
+
+
+.content-bottom {
+    padding: 40px 20px;
+}
+
+/* CONTACT PAGE */
